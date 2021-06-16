@@ -1,0 +1,7 @@
+version: '3'
+services:
+  android-ndk-ci:
+    build: .
+    image: sergiusthebest/android-ndk-ci
+    volumes:
+      - ./workdir:/opt/workdir
